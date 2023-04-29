@@ -1,14 +1,3 @@
-class Ropa:
-    def __init__(self):
-        self.marca = 'YODAIS'
-        self.talla = 'M'
-        self.color = 'RED'
-
-camisa = Ropa()
-print(camisa.talla)
-print(camisa.marca)
-
-
 class Calculadora:
     def __init__(self,n1,n2):
         self.suma = n1 + n2
